@@ -19,7 +19,7 @@ li {
 .nav:visited,
 .contacts:visited,
 .logo:visited {
-  color: inherit;
+  color: var(--text);
 }
 
 .nav:hover,
