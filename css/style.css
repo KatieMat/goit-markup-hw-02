@@ -12,13 +12,21 @@ body {
 }
 
 /* header */
-a:visited {
+li {
+  list-style-type: none;
+}
+
+.nav:visited,
+.contacts:visited,
+.logo:visited {
   color: inherit;
 }
-a:hover,
-:focus {
+
+.nav:hover,
+.nav:focus,
+.contacts:focus,
+.contacts:hover {
   color: var(--hovercolor);
-  text-decoration: none;
 }
 
 .logo {
@@ -29,6 +37,7 @@ a:hover,
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .logo_web {
   color: #2196f3;
 }
@@ -51,14 +60,14 @@ a:hover,
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* studio */
 .section_hero {
   background-color: var(--background);
-  width: 1600px;
-  height: 600px;
 }
+
 .hero {
   font-weight: 900;
   font-size: 44px;
@@ -131,7 +140,7 @@ a:hover,
 /* portfolio */
 
 .button_filter:hover,
-:focus {
+.button_filter:focus {
   color: #ffffff;
   background-color: var(--hovercolor);
 }
@@ -174,6 +183,7 @@ a:hover,
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  font-style: normal;
 }
 footer {
   background: var(--background);
