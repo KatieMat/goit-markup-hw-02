@@ -151,6 +151,7 @@ li {
 }
 
 .button_filter {
+  font-family: "Roboto", sans-serif;
   color: var(--text);
   background: var(--bgbutton);
   border-radius: 4px;
