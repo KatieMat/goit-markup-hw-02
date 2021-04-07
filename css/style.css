@@ -43,10 +43,10 @@ li {
   text-decoration: none;
 }
 
-.logo_web {
+.logo-web {
   color: #2196f3;
 }
-.logo_studio_footer {
+.logo-studio-footer {
   color: #fff;
 }
 
@@ -69,7 +69,7 @@ li {
 }
 
 /* studio */
-.section_hero {
+.section-hero {
   background-color: var(--background);
 }
 
@@ -82,7 +82,7 @@ li {
   text-transform: uppercase;
   color: #ffffff;
 }
-.button_order {
+.button-order {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   background: #2196f3;
@@ -102,22 +102,22 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.competences_description {
+.competences-description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--subtext);
 }
-.what_are_we_doing {
+.what-are-we-doing {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section_team {
+.section-team {
   background-color: #f5f4fa;
 }
-.caption_team {
+.caption-team {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -129,14 +129,14 @@ li {
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
-.card_name {
+.card-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.card_description {
+.card-description {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -145,13 +145,13 @@ li {
 }
 /* portfolio */
 
-.button_filter:hover,
-.button_filter:focus {
+.button-filter:hover,
+.button-filter:focus {
   color: #ffffff;
   background-color: var(--hovercolor);
 }
 
-.button_filter {
+.button-filter {
   font-family: "Roboto", sans-serif;
   color: var(--text);
   background: var(--bgbutton);
@@ -164,7 +164,7 @@ li {
   letter-spacing: 0.03em;
 }
 
-.container_bg {
+.container-bg {
   width: 370px;
   height: 404px;
   background: #ffffff;
