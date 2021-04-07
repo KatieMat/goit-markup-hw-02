@@ -21,17 +21,16 @@ li {
 .logo:visited {
   color: var(--text);
 }
-.nav:active,
-.contacts:active,
-.logo:active {
-  color: var(--text);
-}
 
 .nav:hover,
 .nav:focus,
 .contacts:focus,
 .contacts:hover {
   color: var(--hovercolor);
+}
+
+.nav.current {
+  color: #2196f3;
 }
 
 .logo {
