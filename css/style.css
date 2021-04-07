@@ -83,6 +83,7 @@ li {
   color: #ffffff;
 }
 .button_order {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background: #2196f3;
   border-radius: 4px;
